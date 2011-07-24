@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0911B1DC13DCB38300B1E511 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0911B1DB13DCB38300B1E511 /* Growl.framework */; };
 		0911B1E313DCB43200B1E511 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0911B1DB13DCB38300B1E511 /* Growl.framework */; };
+		0911B1E413DCC46E00B1E511 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0911B1E613DCC46E00B1E511 /* MainMenu.xib */; };
 		093C652113DCA0F30023FAE7 /* GPSAssistAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C651B13DCA0F30023FAE7 /* GPSAssistAppDelegate.m */; };
 		093C652213DCA0F30023FAE7 /* GPSAssistDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C651D13DCA0F30023FAE7 /* GPSAssistDataHandler.m */; };
 		093C652313DCA0F30023FAE7 /* GPSAssistMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C652013DCA0F30023FAE7 /* GPSAssistMenu.m */; };
@@ -18,7 +19,6 @@
 		093C652F13DCA1730023FAE7 /* gps.gif in Resources */ = {isa = PBXBuildFile; fileRef = 093C652C13DCA1730023FAE7 /* gps.gif */; };
 		093C653013DCA1730023FAE7 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 093C652D13DCA1730023FAE7 /* icon.icns */; };
 		093C653213DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 093C653113DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict */; };
-		093C653C13DCA8380023FAE7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093C653B13DCA8380023FAE7 /* MainMenu.xib */; };
 		09571CE513DC9DE90039286E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09571CE413DC9DE90039286E /* Cocoa.framework */; };
 		09571CEF13DC9DE90039286E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09571CED13DC9DE90039286E /* InfoPlist.strings */; };
 		09571CF113DC9DE90039286E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09571CF013DC9DE90039286E /* main.m */; };
@@ -40,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		0911B1DB13DCB38300B1E511 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = "Growl-1.2.1-Framework/Growl.framework"; sourceTree = "<group>"; };
+		0911B1E513DCC46E00B1E511 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		093C651A13DCA0F30023FAE7 /* GPSAssistAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSAssistAppDelegate.h; sourceTree = "<group>"; };
 		093C651B13DCA0F30023FAE7 /* GPSAssistAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSAssistAppDelegate.m; sourceTree = "<group>"; };
 		093C651C13DCA0F30023FAE7 /* GPSAssistDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSAssistDataHandler.h; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		093C652C13DCA1730023FAE7 /* gps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gps.gif; sourceTree = "<group>"; };
 		093C652D13DCA1730023FAE7 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		093C653113DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
-		093C653B13DCA8380023FAE7 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		09571CE013DC9DE90039286E /* GPS Assist Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Assist Updater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09571CE413DC9DE90039286E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		09571CE713DC9DE90039286E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -106,7 +106,7 @@
 				093C652B13DCA1730023FAE7 /* gps_small.png */,
 				093C652C13DCA1730023FAE7 /* gps.gif */,
 				093C653113DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict */,
-				093C653B13DCA8380023FAE7 /* MainMenu.xib */,
+				0911B1E613DCC46E00B1E511 /* MainMenu.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -202,6 +202,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = 09571CD513DC9DE90039286E;
 			productRefGroup = 09571CE113DC9DE90039286E /* Products */;
@@ -224,7 +225,7 @@
 				093C652F13DCA1730023FAE7 /* gps.gif in Resources */,
 				093C653013DCA1730023FAE7 /* icon.icns in Resources */,
 				093C653213DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict in Resources */,
-				093C653C13DCA8380023FAE7 /* MainMenu.xib in Resources */,
+				0911B1E413DCC46E00B1E511 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +248,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0911B1E613DCC46E00B1E511 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0911B1E513DCC46E00B1E511 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		09571CED13DC9DE90039286E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

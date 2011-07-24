@@ -161,7 +161,6 @@
 							<string key="NSFrame">{{429, 15}, {111, 23}}</string>
 							<reference key="NSSuperview" ref="468199087"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="684119740">
 								<int key="NSCellFlags">-2080244224</int>
@@ -183,7 +182,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="480803325"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1680, 1028}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
