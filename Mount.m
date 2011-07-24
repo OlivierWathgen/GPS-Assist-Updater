@@ -154,7 +154,7 @@ static const BOOL showAllDisks=NO;	//if NO it only shows disks with the Private/
 	if(lastUpdate==nil){
 		return @"No GPSAssist-data";
 	}else{
-		NSDate *validDate=[lastUpdate addTimeInterval:GpsAssistValidTime];
+		NSDate *validDate=[lastUpdate dateByAddingTimeInterval:GpsAssistValidTime];
 		NSDateFormatter *formatter=[[[NSDateFormatter alloc]init]autorelease];
 		[formatter setFormatterBehavior:NSDateFormatterBehavior10_4];
 		[formatter setDateStyle:NSDateFormatterMediumStyle];

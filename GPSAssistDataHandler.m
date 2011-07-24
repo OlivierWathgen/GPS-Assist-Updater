@@ -127,7 +127,7 @@ static const double GpsAssistDataValidTime=86400;	//24hours
 	
     NSLog(@"Connection failed! Error - %@ %@",
           [error localizedDescription],
-          [[error userInfo] objectForKey:NSErrorFailingURLStringKey]);
+          [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
 	[self downloadFailed];
 }
 
