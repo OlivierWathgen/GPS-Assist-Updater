@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09571CE513DC9DE90039286E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09571CE413DC9DE90039286E /* Cocoa.framework */; };
+		09571CEF13DC9DE90039286E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09571CED13DC9DE90039286E /* InfoPlist.strings */; };
+		09571CF113DC9DE90039286E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09571CF013DC9DE90039286E /* main.m */; };
+		09571CF513DC9DE90039286E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09571CF313DC9DE90039286E /* Credits.rtf */; };
+		09571CF813DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09571CF713DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m */; };
+		09571CFB13DC9DE90039286E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09571CF913DC9DE90039286E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09571CE013DC9DE90039286E /* GPS Assist Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Assist Updater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09571CE413DC9DE90039286E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		09571CE713DC9DE90039286E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		09571CE813DC9DE90039286E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		09571CE913DC9DE90039286E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09571CEC13DC9DE90039286E /* GPS Assist Updater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPS Assist Updater-Info.plist"; sourceTree = "<group>"; };
+		09571CEE13DC9DE90039286E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09571CF013DC9DE90039286E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09571CF213DC9DE90039286E /* GPS Assist Updater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPS Assist Updater-Prefix.pch"; sourceTree = "<group>"; };
+		09571CF413DC9DE90039286E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		09571CF613DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPS_Assist_UpdaterAppDelegate.h; sourceTree = "<group>"; };
+		09571CF713DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPS_Assist_UpdaterAppDelegate.m; sourceTree = "<group>"; };
+		09571CFA13DC9DE90039286E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09571CDD13DC9DE90039286E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09571CE513DC9DE90039286E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09571CD513DC9DE90039286E = {
+			isa = PBXGroup;
+			children = (
+				09571CEA13DC9DE90039286E /* GPS Assist Updater */,
+				09571CE313DC9DE90039286E /* Frameworks */,
+				09571CE113DC9DE90039286E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09571CE113DC9DE90039286E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09571CE013DC9DE90039286E /* GPS Assist Updater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09571CE313DC9DE90039286E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09571CE413DC9DE90039286E /* Cocoa.framework */,
+				09571CE613DC9DE90039286E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09571CE613DC9DE90039286E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09571CE713DC9DE90039286E /* AppKit.framework */,
+				09571CE813DC9DE90039286E /* CoreData.framework */,
+				09571CE913DC9DE90039286E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		09571CEA13DC9DE90039286E /* GPS Assist Updater */ = {
+			isa = PBXGroup;
+			children = (
+				09571CF613DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.h */,
+				09571CF713DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m */,
+				09571CF913DC9DE90039286E /* MainMenu.xib */,
+				09571CEB13DC9DE90039286E /* Supporting Files */,
+			);
+			path = "GPS Assist Updater";
+			sourceTree = "<group>";
+		};
+		09571CEB13DC9DE90039286E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09571CEC13DC9DE90039286E /* GPS Assist Updater-Info.plist */,
+				09571CED13DC9DE90039286E /* InfoPlist.strings */,
+				09571CF013DC9DE90039286E /* main.m */,
+				09571CF213DC9DE90039286E /* GPS Assist Updater-Prefix.pch */,
+				09571CF313DC9DE90039286E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09571CDF13DC9DE90039286E /* GPS Assist Updater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09571CFE13DC9DEA0039286E /* Build configuration list for PBXNativeTarget "GPS Assist Updater" */;
+			buildPhases = (
+				09571CDC13DC9DE90039286E /* Sources */,
+				09571CDD13DC9DE90039286E /* Frameworks */,
+				09571CDE13DC9DE90039286E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPS Assist Updater";
+			productName = "GPS Assist Updater";
+			productReference = 09571CE013DC9DE90039286E /* GPS Assist Updater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09571CD713DC9DE90039286E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 09571CDA13DC9DE90039286E /* Build configuration list for PBXProject "GPS Assist Updater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09571CD513DC9DE90039286E;
+			productRefGroup = 09571CE113DC9DE90039286E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09571CDF13DC9DE90039286E /* GPS Assist Updater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09571CDE13DC9DE90039286E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09571CEF13DC9DE90039286E /* InfoPlist.strings in Resources */,
+				09571CF513DC9DE90039286E /* Credits.rtf in Resources */,
+				09571CFB13DC9DE90039286E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09571CDC13DC9DE90039286E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09571CF113DC9DE90039286E /* main.m in Sources */,
+				09571CF813DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09571CED13DC9DE90039286E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09571CEE13DC9DE90039286E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09571CF313DC9DE90039286E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09571CF413DC9DE90039286E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		09571CF913DC9DE90039286E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09571CFA13DC9DE90039286E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09571CFC13DC9DEA0039286E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09571CFD13DC9DEA0039286E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09571CFF13DC9DEA0039286E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPS Assist Updater/GPS Assist Updater-Prefix.pch";
+				INFOPLIST_FILE = "GPS Assist Updater/GPS Assist Updater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09571D0013DC9DEA0039286E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPS Assist Updater/GPS Assist Updater-Prefix.pch";
+				INFOPLIST_FILE = "GPS Assist Updater/GPS Assist Updater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09571CDA13DC9DE90039286E /* Build configuration list for PBXProject "GPS Assist Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09571CFC13DC9DEA0039286E /* Debug */,
+				09571CFD13DC9DEA0039286E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09571CFE13DC9DEA0039286E /* Build configuration list for PBXNativeTarget "GPS Assist Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09571CFF13DC9DEA0039286E /* Debug */,
+				09571D0013DC9DEA0039286E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09571CD713DC9DE90039286E /* Project object */;
+}

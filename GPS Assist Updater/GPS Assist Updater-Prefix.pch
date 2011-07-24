@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GPS Assist Updater' target in the 'GPS Assist Updater' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
