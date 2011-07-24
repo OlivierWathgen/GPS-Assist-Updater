@@ -81,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0911B1E813DCC57D00B1E511 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				0911B1E613DCC46E00B1E511 /* MainMenu.xib */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
 		093C651813DCA0D90023FAE7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +114,6 @@
 				093C652B13DCA1730023FAE7 /* gps_small.png */,
 				093C652C13DCA1730023FAE7 /* gps.gif */,
 				093C653113DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict */,
-				0911B1E613DCC46E00B1E511 /* MainMenu.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -114,9 +121,10 @@
 		09571CD513DC9DE90039286E = {
 			isa = PBXGroup;
 			children = (
-				093C652A13DCA15A0023FAE7 /* Resources */,
+				0911B1E813DCC57D00B1E511 /* User Interface */,
 				093C651813DCA0D90023FAE7 /* Classes */,
-				09571CEA13DC9DE90039286E /* GPS Assist Updater */,
+				093C652A13DCA15A0023FAE7 /* Resources */,
+				09571CEB13DC9DE90039286E /* Supporting Files */,
 				09571CE313DC9DE90039286E /* Frameworks */,
 				09571CE113DC9DE90039286E /* Products */,
 			);
@@ -150,14 +158,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		09571CEA13DC9DE90039286E /* GPS Assist Updater */ = {
-			isa = PBXGroup;
-			children = (
-				09571CEB13DC9DE90039286E /* Supporting Files */,
-			);
-			path = "GPS Assist Updater";
-			sourceTree = "<group>";
-		};
 		09571CEB13DC9DE90039286E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +168,7 @@
 				09571CF313DC9DE90039286E /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			path = "GPS Assist Updater";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
