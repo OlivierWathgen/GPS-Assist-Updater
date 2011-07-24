@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0911B1DC13DCB38300B1E511 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0911B1DB13DCB38300B1E511 /* Growl.framework */; };
+		0911B1E313DCB43200B1E511 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0911B1DB13DCB38300B1E511 /* Growl.framework */; };
+		093C652113DCA0F30023FAE7 /* GPSAssistAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C651B13DCA0F30023FAE7 /* GPSAssistAppDelegate.m */; };
+		093C652213DCA0F30023FAE7 /* GPSAssistDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C651D13DCA0F30023FAE7 /* GPSAssistDataHandler.m */; };
+		093C652313DCA0F30023FAE7 /* GPSAssistMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C652013DCA0F30023FAE7 /* GPSAssistMenu.m */; };
+		093C652813DCA1050023FAE7 /* Mount.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C652513DCA1050023FAE7 /* Mount.m */; };
+		093C652913DCA1050023FAE7 /* MountsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C652713DCA1050023FAE7 /* MountsHandler.m */; };
+		093C652E13DCA1730023FAE7 /* gps_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C652B13DCA1730023FAE7 /* gps_small.png */; };
+		093C652F13DCA1730023FAE7 /* gps.gif in Resources */ = {isa = PBXBuildFile; fileRef = 093C652C13DCA1730023FAE7 /* gps.gif */; };
+		093C653013DCA1730023FAE7 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 093C652D13DCA1730023FAE7 /* icon.icns */; };
+		093C653213DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 093C653113DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict */; };
+		093C653C13DCA8380023FAE7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093C653B13DCA8380023FAE7 /* MainMenu.xib */; };
 		09571CE513DC9DE90039286E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09571CE413DC9DE90039286E /* Cocoa.framework */; };
 		09571CEF13DC9DE90039286E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09571CED13DC9DE90039286E /* InfoPlist.strings */; };
 		09571CF113DC9DE90039286E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09571CF013DC9DE90039286E /* main.m */; };
@@ -15,7 +27,37 @@
 		09571CFB13DC9DE90039286E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09571CF913DC9DE90039286E /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0911B1E213DCB40900B1E511 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0911B1E313DCB43200B1E511 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0911B1DB13DCB38300B1E511 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = "Growl-1.2.1-Framework/Growl.framework"; sourceTree = "<group>"; };
+		093C651A13DCA0F30023FAE7 /* GPSAssistAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSAssistAppDelegate.h; sourceTree = "<group>"; };
+		093C651B13DCA0F30023FAE7 /* GPSAssistAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSAssistAppDelegate.m; sourceTree = "<group>"; };
+		093C651C13DCA0F30023FAE7 /* GPSAssistDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSAssistDataHandler.h; sourceTree = "<group>"; };
+		093C651D13DCA0F30023FAE7 /* GPSAssistDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSAssistDataHandler.m; sourceTree = "<group>"; };
+		093C651E13DCA0F30023FAE7 /* GPSAssistDataHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSAssistDataHandlerDelegate.h; sourceTree = "<group>"; };
+		093C651F13DCA0F30023FAE7 /* GPSAssistMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSAssistMenu.h; sourceTree = "<group>"; };
+		093C652013DCA0F30023FAE7 /* GPSAssistMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSAssistMenu.m; sourceTree = "<group>"; };
+		093C652413DCA1050023FAE7 /* Mount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mount.h; sourceTree = "<group>"; };
+		093C652513DCA1050023FAE7 /* Mount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mount.m; sourceTree = "<group>"; };
+		093C652613DCA1050023FAE7 /* MountsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountsHandler.h; sourceTree = "<group>"; };
+		093C652713DCA1050023FAE7 /* MountsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountsHandler.m; sourceTree = "<group>"; };
+		093C652B13DCA1730023FAE7 /* gps_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gps_small.png; sourceTree = "<group>"; };
+		093C652C13DCA1730023FAE7 /* gps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gps.gif; sourceTree = "<group>"; };
+		093C652D13DCA1730023FAE7 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		093C653113DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		093C653B13DCA8380023FAE7 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		09571CE013DC9DE90039286E /* GPS Assist Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Assist Updater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09571CE413DC9DE90039286E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		09571CE713DC9DE90039286E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -37,15 +79,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				09571CE513DC9DE90039286E /* Cocoa.framework in Frameworks */,
+				0911B1DC13DCB38300B1E511 /* Growl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093C651813DCA0D90023FAE7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				093C651F13DCA0F30023FAE7 /* GPSAssistMenu.h */,
+				093C652013DCA0F30023FAE7 /* GPSAssistMenu.m */,
+				093C651A13DCA0F30023FAE7 /* GPSAssistAppDelegate.h */,
+				093C651B13DCA0F30023FAE7 /* GPSAssistAppDelegate.m */,
+				093C652613DCA1050023FAE7 /* MountsHandler.h */,
+				093C652713DCA1050023FAE7 /* MountsHandler.m */,
+				093C652413DCA1050023FAE7 /* Mount.h */,
+				093C652513DCA1050023FAE7 /* Mount.m */,
+				093C651C13DCA0F30023FAE7 /* GPSAssistDataHandler.h */,
+				093C651D13DCA0F30023FAE7 /* GPSAssistDataHandler.m */,
+				093C651E13DCA0F30023FAE7 /* GPSAssistDataHandlerDelegate.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		093C652A13DCA15A0023FAE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				093C652D13DCA1730023FAE7 /* icon.icns */,
+				093C652B13DCA1730023FAE7 /* gps_small.png */,
+				093C652C13DCA1730023FAE7 /* gps.gif */,
+				093C653113DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict */,
+				093C653B13DCA8380023FAE7 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		09571CD513DC9DE90039286E = {
 			isa = PBXGroup;
 			children = (
+				093C652A13DCA15A0023FAE7 /* Resources */,
+				093C651813DCA0D90023FAE7 /* Classes */,
 				09571CEA13DC9DE90039286E /* GPS Assist Updater */,
 				09571CE313DC9DE90039286E /* Frameworks */,
 				09571CE113DC9DE90039286E /* Products */,
@@ -64,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				09571CE413DC9DE90039286E /* Cocoa.framework */,
+				0911B1DB13DCB38300B1E511 /* Growl.framework */,
 				09571CE613DC9DE90039286E /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -109,9 +185,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09571CFE13DC9DEA0039286E /* Build configuration list for PBXNativeTarget "GPS Assist Updater" */;
 			buildPhases = (
-				09571CDC13DC9DE90039286E /* Sources */,
-				09571CDD13DC9DE90039286E /* Frameworks */,
 				09571CDE13DC9DE90039286E /* Resources */,
+				09571CDC13DC9DE90039286E /* Sources */,
+				0911B1E213DCB40900B1E511 /* CopyFiles */,
+				09571CDD13DC9DE90039286E /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +229,11 @@
 				09571CEF13DC9DE90039286E /* InfoPlist.strings in Resources */,
 				09571CF513DC9DE90039286E /* Credits.rtf in Resources */,
 				09571CFB13DC9DE90039286E /* MainMenu.xib in Resources */,
+				093C652E13DCA1730023FAE7 /* gps_small.png in Resources */,
+				093C652F13DCA1730023FAE7 /* gps.gif in Resources */,
+				093C653013DCA1730023FAE7 /* icon.icns in Resources */,
+				093C653213DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict in Resources */,
+				093C653C13DCA8380023FAE7 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +246,11 @@
 			files = (
 				09571CF113DC9DE90039286E /* main.m in Sources */,
 				09571CF813DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m in Sources */,
+				093C652113DCA0F30023FAE7 /* GPSAssistAppDelegate.m in Sources */,
+				093C652213DCA0F30023FAE7 /* GPSAssistDataHandler.m in Sources */,
+				093C652313DCA0F30023FAE7 /* GPSAssistMenu.m in Sources */,
+				093C652813DCA1050023FAE7 /* Mount.m in Sources */,
+				093C652913DCA1050023FAE7 /* MountsHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -227,7 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -245,10 +332,18 @@
 		09571CFF13DC9DEA0039286E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Growl-1.2.1-Framework\"",
+					"\"$(SRCROOT)/../../Desktop/gpsassist-update-r26/GPSAssist Update/Growl-1.2.1-Framework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPS Assist Updater/GPS Assist Updater-Prefix.pch";
 				INFOPLIST_FILE = "GPS Assist Updater/GPS Assist Updater-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -256,10 +351,18 @@
 		09571D0013DC9DEA0039286E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Growl-1.2.1-Framework\"",
+					"\"$(SRCROOT)/../../Desktop/gpsassist-update-r26/GPSAssist Update/Growl-1.2.1-Framework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPS Assist Updater/GPS Assist Updater-Prefix.pch";
 				INFOPLIST_FILE = "GPS Assist Updater/GPS Assist Updater-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,6 +386,7 @@
 				09571D0013DC9DEA0039286E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
