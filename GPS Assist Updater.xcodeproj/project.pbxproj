@@ -24,7 +24,6 @@
 		09571CF113DC9DE90039286E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09571CF013DC9DE90039286E /* main.m */; };
 		09571CF513DC9DE90039286E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09571CF313DC9DE90039286E /* Credits.rtf */; };
 		09571CF813DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09571CF713DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m */; };
-		09571CFB13DC9DE90039286E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09571CF913DC9DE90039286E /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,7 +69,6 @@
 		09571CF413DC9DE90039286E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		09571CF613DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPS_Assist_UpdaterAppDelegate.h; sourceTree = "<group>"; };
 		09571CF713DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPS_Assist_UpdaterAppDelegate.m; sourceTree = "<group>"; };
-		09571CFA13DC9DE90039286E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +158,6 @@
 			children = (
 				09571CF613DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.h */,
 				09571CF713DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m */,
-				09571CF913DC9DE90039286E /* MainMenu.xib */,
 				09571CEB13DC9DE90039286E /* Supporting Files */,
 			);
 			path = "GPS Assist Updater";
@@ -228,7 +225,6 @@
 			files = (
 				09571CEF13DC9DE90039286E /* InfoPlist.strings in Resources */,
 				09571CF513DC9DE90039286E /* Credits.rtf in Resources */,
-				09571CFB13DC9DE90039286E /* MainMenu.xib in Resources */,
 				093C652E13DCA1730023FAE7 /* gps_small.png in Resources */,
 				093C652F13DCA1730023FAE7 /* gps.gif in Resources */,
 				093C653013DCA1730023FAE7 /* icon.icns in Resources */,
@@ -271,14 +267,6 @@
 				09571CF413DC9DE90039286E /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		09571CF913DC9DE90039286E /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09571CFA13DC9DE90039286E /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
