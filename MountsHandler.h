@@ -16,7 +16,7 @@
 	BOOL gpsAssistAutoUpdate;
 }
 
-@property BOOL gpsAssistAutoUpdate;
+@property(nonatomic) BOOL gpsAssistAutoUpdate;
 
 -(id)initWithMenu:(GPSAssistMenu*)menu dataHandler:(GPSAssistDataHandler*)dataHandler;
 

@@ -15,7 +15,7 @@ static NSString *hideWelcome=@"hideWelcome";
 @implementation GPSAssistAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification{
-	[GrowlApplicationBridge setGrowlDelegate:@""];
+	[GrowlApplicationBridge setGrowlDelegate:self];
     	
 	//Check if we need to show the welcome-window first
 	if(![[NSUserDefaults standardUserDefaults]boolForKey:hideWelcome]){

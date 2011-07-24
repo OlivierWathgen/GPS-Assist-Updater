@@ -22,7 +22,7 @@
 
 @property BOOL gpsAssistEnabled;
 @property(readonly) NSDate *gpsAssistLastUpdate;
-@property BOOL gpsAssistAutoUpdate;
+@property(nonatomic) BOOL gpsAssistAutoUpdate;
 @property(readonly) NSMenuItem *menuItem;
 @property(readonly) BOOL hidden;
 
