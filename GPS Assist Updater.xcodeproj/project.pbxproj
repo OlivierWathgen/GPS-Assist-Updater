@@ -23,7 +23,6 @@
 		09571CEF13DC9DE90039286E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09571CED13DC9DE90039286E /* InfoPlist.strings */; };
 		09571CF113DC9DE90039286E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09571CF013DC9DE90039286E /* main.m */; };
 		09571CF513DC9DE90039286E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09571CF313DC9DE90039286E /* Credits.rtf */; };
-		09571CF813DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09571CF713DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,8 +66,6 @@
 		09571CF013DC9DE90039286E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09571CF213DC9DE90039286E /* GPS Assist Updater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPS Assist Updater-Prefix.pch"; sourceTree = "<group>"; };
 		09571CF413DC9DE90039286E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		09571CF613DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPS_Assist_UpdaterAppDelegate.h; sourceTree = "<group>"; };
-		09571CF713DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPS_Assist_UpdaterAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +153,6 @@
 		09571CEA13DC9DE90039286E /* GPS Assist Updater */ = {
 			isa = PBXGroup;
 			children = (
-				09571CF613DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.h */,
-				09571CF713DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m */,
 				09571CEB13DC9DE90039286E /* Supporting Files */,
 			);
 			path = "GPS Assist Updater";
@@ -241,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				09571CF113DC9DE90039286E /* main.m in Sources */,
-				09571CF813DC9DE90039286E /* GPS_Assist_UpdaterAppDelegate.m in Sources */,
 				093C652113DCA0F30023FAE7 /* GPSAssistAppDelegate.m in Sources */,
 				093C652213DCA0F30023FAE7 /* GPSAssistDataHandler.m in Sources */,
 				093C652313DCA0F30023FAE7 /* GPSAssistMenu.m in Sources */,
