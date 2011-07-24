@@ -332,7 +332,7 @@
 		09571CFF13DC9DEA0039286E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -343,7 +343,7 @@
 				GCC_PREFIX_HEADER = "GPS Assist Updater/GPS Assist Updater-Prefix.pch";
 				INFOPLIST_FILE = "GPS Assist Updater/GPS Assist Updater-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -351,7 +351,7 @@
 		09571D0013DC9DEA0039286E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -362,7 +362,7 @@
 				GCC_PREFIX_HEADER = "GPS Assist Updater/GPS Assist Updater-Prefix.pch";
 				INFOPLIST_FILE = "GPS Assist Updater/GPS Assist Updater-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
