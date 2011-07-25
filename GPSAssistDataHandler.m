@@ -191,10 +191,10 @@ static const double GpsAssistDataValidTime=86400;	//24hours
 
 -(NSString*) md5:(NSData*)srcData{
 	const void *data = [srcData bytes];
-	
+	NSNumber *dataLength = [NSNumber numberWithUnsignedInteger:[srcData length]];
 	unsigned char result[CC_MD5_DIGEST_LENGTH];
 	
-	CC_MD5( data, [srcData length], result );
+	CC_MD5( data, [dataLength unsignedIntValue], result );
 	
 	return [NSString 
 			stringWithFormat: @"%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x",

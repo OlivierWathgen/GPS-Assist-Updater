@@ -184,7 +184,8 @@ static const BOOL showAllDisks=NO;	//if NO it only shows disks with the Private/
 			newDisk=NO;
 		}else{
 			//Illegal configfile detected. Remove it. Nobody should be using this filename (bit drastic)
-			if(![fileManager removeFileAtPath:configFile handler:nil]){
+            NSURL *urlconfigfile = [NSURL fileURLWithPath:configFile];
+			if(![fileManager removeItemAtURL:urlconfigfile error:nil]){
 				[self showErrorWithText:[NSString stringWithFormat:@"Cannot remove invalid configuration file: %@",configFileName]];
 				return;
 			}
