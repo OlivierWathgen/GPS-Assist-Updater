@@ -17,7 +17,7 @@ static NSString *mountNotification=@"GPSAssist detected disk";
 static NSString *updatedNotification=@"GPSAssist-data updated";
 static NSString *updateFailedNotification=@"GPSAssist-data update failed";
 
-static const NSString *configFileName=@".gpsassist.plist";
+static const NSString *configFileName=@".gpsassistupdater.plist";
 static const NSString *sonyFolder=@"Private/SONY";
 static const NSString *gpsAssistDataFile=@"assistme.dat";
 static const NSString *gpsAssistDataFolder=@"Private/SONY/GPS";
