@@ -14,7 +14,6 @@
 		093C652813DCA1050023FAE7 /* Mount.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C652513DCA1050023FAE7 /* Mount.m */; };
 		093C652913DCA1050023FAE7 /* MountsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C652713DCA1050023FAE7 /* MountsHandler.m */; };
 		093C652E13DCA1730023FAE7 /* gps_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C652B13DCA1730023FAE7 /* gps_small.png */; };
-		093C652F13DCA1730023FAE7 /* gps.gif in Resources */ = {isa = PBXBuildFile; fileRef = 093C652C13DCA1730023FAE7 /* gps.gif */; };
 		093C653013DCA1730023FAE7 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 093C652D13DCA1730023FAE7 /* icon.icns */; };
 		093C653213DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 093C653113DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict */; };
 		09571CE513DC9DE90039286E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09571CE413DC9DE90039286E /* Cocoa.framework */; };
@@ -58,7 +57,6 @@
 		093C652613DCA1050023FAE7 /* MountsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountsHandler.h; sourceTree = "<group>"; };
 		093C652713DCA1050023FAE7 /* MountsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountsHandler.m; sourceTree = "<group>"; };
 		093C652B13DCA1730023FAE7 /* gps_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gps_small.png; sourceTree = "<group>"; };
-		093C652C13DCA1730023FAE7 /* gps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gps.gif; sourceTree = "<group>"; };
 		093C652D13DCA1730023FAE7 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		093C653113DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
 		09571CE013DC9DE90039286E /* GPS Assist Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Assist Updater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +127,6 @@
 				09FFA50313E80E9F00E861CE /* dsa_pub.pem */,
 				093C652D13DCA1730023FAE7 /* icon.icns */,
 				093C652B13DCA1730023FAE7 /* gps_small.png */,
-				093C652C13DCA1730023FAE7 /* gps.gif */,
 				093C653113DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict */,
 			);
 			name = Resources;
@@ -258,7 +255,6 @@
 			files = (
 				09571CEF13DC9DE90039286E /* InfoPlist.strings in Resources */,
 				093C652E13DCA1730023FAE7 /* gps_small.png in Resources */,
-				093C652F13DCA1730023FAE7 /* gps.gif in Resources */,
 				093C653013DCA1730023FAE7 /* icon.icns in Resources */,
 				093C653213DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict in Resources */,
 				0964069413DCC91B003762C0 /* MainMenu.xib in Resources */,
