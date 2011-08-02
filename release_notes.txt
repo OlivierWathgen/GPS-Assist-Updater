@@ -1,0 +1,5 @@
+<h1 class="update">
+  <span>2011/08/02</span> Release 0.01
+</h1>
+
+First release

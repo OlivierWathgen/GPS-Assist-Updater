@@ -6,6 +6,8 @@
 #import "GPSAssistMenu.h"
 #import "MountsHandler.h"
 
+#import "Sparkle/SUUpdater.h"
+
 @interface GPSAssistMenu(Private)
 -(void)initMenu;
 @end
@@ -53,7 +55,11 @@ static NSString *disableAutoUpdate=@"disableAutoUpdate";
 	
 	[statusMenu addItem:[NSMenuItem separatorItem]];
 
-	NSMenuItem *item=[statusMenu addItemWithTitle:@"About" action:@selector(about) keyEquivalent:@""];
+    NSMenuItem *item=[statusMenu addItemWithTitle:@"Check for Updates..." action:@selector(checkUpdates) keyEquivalent:@""];
+	[item setEnabled:YES];
+	[item setTarget:self];
+
+	item=[statusMenu addItemWithTitle:@"About" action:@selector(about) keyEquivalent:@""];
 	[item setEnabled:YES];
 	[item setTarget:self];
 
@@ -76,6 +82,11 @@ static NSString *disableAutoUpdate=@"disableAutoUpdate";
 		mountsHandler.gpsAssistAutoUpdate=YES;
 		[[NSUserDefaults standardUserDefaults]setBool:NO forKey:disableAutoUpdate];
 	}
+}
+
+-(void)checkUpdates{
+    SUUpdater *updater = [SUUpdater sharedUpdater];
+    [updater checkForUpdates:self];
 }
 
 -(void)about{

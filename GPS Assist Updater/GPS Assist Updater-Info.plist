@@ -32,5 +32,13 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>SUFeedURL</key>
+	<string>https://github.com/downloads/OlivierWathgen/GPS-Assist-Updater/appcast.xml</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>dsa_pub.pem</string>
+	<key>SUEnableAutomaticChecks</key>
+	<string>YES</string>
+	<key>SUScheduledCheckInterval</key>
+	<string>21600</string>
 </dict>
 </plist>

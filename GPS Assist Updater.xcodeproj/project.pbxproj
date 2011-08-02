@@ -23,6 +23,13 @@
 		09571CF113DC9DE90039286E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09571CF013DC9DE90039286E /* main.m */; };
 		09571CF513DC9DE90039286E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09571CF313DC9DE90039286E /* Credits.rtf */; };
 		0964069413DCC91B003762C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0964069613DCC91B003762C0 /* MainMenu.xib */; };
+		0987203713E6C8B7001AEC08 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0987203613E6C8B7001AEC08 /* Sparkle.framework */; };
+		09FFA50113E6F10500E861CE /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0987203613E6C8B7001AEC08 /* Sparkle.framework */; };
+		09FFA50413E80E9F00E861CE /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 09FFA50313E80E9F00E861CE /* dsa_pub.pem */; };
+		09FFA50A13E8196F00E861CE /* dmg_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FFA50613E8196F00E861CE /* dmg_background.png */; };
+		09FFA50B13E8196F00E861CE /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = 09FFA50713E8196F00E861CE /* Rakefile */; };
+		09FFA50C13E8196F00E861CE /* release_notes_template.html.erb in Resources */ = {isa = PBXBuildFile; fileRef = 09FFA50813E8196F00E861CE /* release_notes_template.html.erb */; };
+		09FFA50D13E8196F00E861CE /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09FFA50913E8196F00E861CE /* release_notes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +39,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				0987203713E6C8B7001AEC08 /* Sparkle.framework in CopyFiles */,
 				0911B1E313DCB43200B1E511 /* Growl.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +74,12 @@
 		09571CF213DC9DE90039286E /* GPS Assist Updater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPS Assist Updater-Prefix.pch"; sourceTree = "<group>"; };
 		09571CF413DC9DE90039286E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		0964069513DCC91B003762C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0987203613E6C8B7001AEC08 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "Sparkle-1.5b6-Framework/Sparkle.framework"; sourceTree = "<group>"; };
+		09FFA50313E80E9F00E861CE /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		09FFA50613E8196F00E861CE /* dmg_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dmg_background.png; sourceTree = "<group>"; };
+		09FFA50713E8196F00E861CE /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		09FFA50813E8196F00E861CE /* release_notes_template.html.erb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes_template.html.erb; sourceTree = "<group>"; };
+		09FFA50913E8196F00E861CE /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,7 @@
 			files = (
 				09571CE513DC9DE90039286E /* Cocoa.framework in Frameworks */,
 				0911B1DC13DCB38300B1E511 /* Growl.framework in Frameworks */,
+				09FFA50113E6F10500E861CE /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +125,7 @@
 		093C652A13DCA15A0023FAE7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				09FFA50313E80E9F00E861CE /* dsa_pub.pem */,
 				093C652D13DCA1730023FAE7 /* icon.icns */,
 				093C652B13DCA1730023FAE7 /* gps_small.png */,
 				093C652C13DCA1730023FAE7 /* gps.gif */,
@@ -143,6 +159,7 @@
 			children = (
 				09571CE413DC9DE90039286E /* Cocoa.framework */,
 				0911B1DB13DCB38300B1E511 /* Growl.framework */,
+				0987203613E6C8B7001AEC08 /* Sparkle.framework */,
 				09571CE613DC9DE90039286E /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -161,6 +178,7 @@
 		09571CEB13DC9DE90039286E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09FFA50513E8195100E861CE /* ChocTop */,
 				09571CEC13DC9DE90039286E /* GPS Assist Updater-Info.plist */,
 				09571CED13DC9DE90039286E /* InfoPlist.strings */,
 				09571CF013DC9DE90039286E /* main.m */,
@@ -169,6 +187,18 @@
 			);
 			name = "Supporting Files";
 			path = "GPS Assist Updater";
+			sourceTree = "<group>";
+		};
+		09FFA50513E8195100E861CE /* ChocTop */ = {
+			isa = PBXGroup;
+			children = (
+				09FFA50613E8196F00E861CE /* dmg_background.png */,
+				09FFA50713E8196F00E861CE /* Rakefile */,
+				09FFA50813E8196F00E861CE /* release_notes_template.html.erb */,
+				09FFA50913E8196F00E861CE /* release_notes.txt */,
+			);
+			name = ChocTop;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +234,12 @@
 			knownRegions = (
 				en,
 				fr,
+				de,
+				es,
+				it,
+				nl,
+				ru,
+				sv,
 			);
 			mainGroup = 09571CD513DC9DE90039286E;
 			productRefGroup = 09571CE113DC9DE90039286E /* Products */;
@@ -227,6 +263,11 @@
 				093C653013DCA1730023FAE7 /* icon.icns in Resources */,
 				093C653213DCA1930023FAE7 /* Growl Registration Ticket.growlRegDict in Resources */,
 				0964069413DCC91B003762C0 /* MainMenu.xib in Resources */,
+				09FFA50413E80E9F00E861CE /* dsa_pub.pem in Resources */,
+				09FFA50A13E8196F00E861CE /* dmg_background.png in Resources */,
+				09FFA50B13E8196F00E861CE /* Rakefile in Resources */,
+				09FFA50C13E8196F00E861CE /* release_notes_template.html.erb in Resources */,
+				09FFA50D13E8196F00E861CE /* release_notes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +326,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -312,7 +353,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -331,6 +372,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/Growl-1.2.1-Framework\"",
+					"\"$(SRCROOT)/Sparkle-1.5b6-Framework\"",
 				);
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -351,6 +393,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/Growl-1.2.1-Framework\"",
+					"\"$(SRCROOT)/Sparkle-1.5b6-Framework\"",
 				);
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

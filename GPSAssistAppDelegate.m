@@ -4,6 +4,7 @@
 //
 
 #import "GPSAssistAppDelegate.h"
+#import "Sparkle/Sparkle.h"
 
 static NSString *hideWelcome=@"hideWelcome";
 
@@ -16,6 +17,9 @@ static NSString *hideWelcome=@"hideWelcome";
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification{
 	[GrowlApplicationBridge setGrowlDelegate:self];
+    
+    SUUpdater *updater = [SUUpdater sharedUpdater];
+    [updater checkForUpdatesInBackground];
     	
 	//Check if we need to show the welcome-window first
 	if(![[NSUserDefaults standardUserDefaults]boolForKey:hideWelcome]){

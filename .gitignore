@@ -14,3 +14,4 @@ xcuserdata
 .DS_Store
 *.swp
 *~.nib
+dsa_priv.pem
