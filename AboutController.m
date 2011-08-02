@@ -10,7 +10,8 @@
 - (id)init
 {
     self = [super initWithWindowNibName:@"AboutWindow"];
-    if (self) {
+    if (self)
+    {
         
     }
     

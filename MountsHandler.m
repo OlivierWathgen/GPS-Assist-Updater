@@ -59,8 +59,8 @@
 	NSDictionary *info = [[NSFileManager defaultManager] attributesOfFileSystemForPath:mountPath error:&error];
 	if (info)
     {
-		free  = (NSNumber*)[info objectForKey:NSFileSystemFreeSize];	// +868560896 = 868.5MB
-		total = (NSNumber*)[info objectForKey:NSFileSystemSize];		// +1028075520= 1.03GB
+		free  = (NSNumber*) [info objectForKey:NSFileSystemFreeSize];	// +868560896 = 868.5MB
+		total = (NSNumber*) [info objectForKey:NSFileSystemSize];		// +1028075520= 1.03GB
 	}
 	NSLog(@"mount: %@ removable:%d writable:%d unmountable:%d description:%@ fstype:%@", mountPath, isRemovable, isWritable, isUnmountable, description, fsType);
 	NSLog(@"free=%fMB total=%fMB",[free doubleValue]/(1024*1024), [total doubleValue]/(1024*1024));

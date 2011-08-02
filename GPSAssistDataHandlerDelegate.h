@@ -4,6 +4,6 @@
 //
 
 @protocol GPSAssistDataHandlerDelegate
--(void)gpsAssistDataAvailable:(NSData*)gpsAssistData date:(NSDate*)downloadDate;
--(void)gpsAssistDataFailed;
+- (void)gpsAssistDataAvailable:(NSData*)gpsAssistData date:(NSDate*)downloadDate;
+- (void)gpsAssistDataFailed;
 @end

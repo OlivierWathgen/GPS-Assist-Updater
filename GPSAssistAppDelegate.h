@@ -11,25 +11,25 @@
 
 @interface GPSAssistAppDelegate : NSObject <GrowlApplicationBridgeDelegate>
 {
-    IBOutlet NSWindow   *welcomeWindow;
-    IBOutlet NSMenu     *statusMenu;
-    IBOutlet NSMenuItem *autoUpdateItem;
-    IBOutlet NSMenuItem *hiddenSeperator;
+    IBOutlet NSWindow     *welcomeWindow;
+    IBOutlet NSMenu       *statusMenu;
+    IBOutlet NSMenuItem   *autoUpdateItem;
+    IBOutlet NSMenuItem   *hiddenSeperator;
     
-    NSStatusItem        *statusItem;
-	NSArray             *mountsMenuItems;
-    BOOL                autoUpdate;
+    NSStatusItem          *statusItem;
+	NSArray               *mountsMenuItems;
+    BOOL                  autoUpdate;
     
-	MountsHandler *mountsHandler;
-	GPSAssistDataHandler *gpsAssistDataHandler;
+	MountsHandler         *mountsHandler;
+	GPSAssistDataHandler  *gpsAssistDataHandler;
     
-    AboutController     *aboutController;
+    AboutController       *aboutController;
 	
 	IBOutlet NSButtonCell *dontShowTickBox;
 }
 
-@property(assign) MountsHandler *mountsHandler;
-@property(readonly) BOOL autoUpdate;
+@property(assign)   MountsHandler *mountsHandler;
+@property(readonly) BOOL          autoUpdate;
 
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification;

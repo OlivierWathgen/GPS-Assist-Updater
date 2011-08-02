@@ -8,23 +8,25 @@
 #import <Cocoa/Cocoa.h>
 #import "GPSAssistDataHandlerDelegate.h"
 
-typedef enum{
+typedef enum
+{
 	DOWNLOAD_IDLE,
 	DOWNLOAD_DATA,
 	DOWNLOAD_MD5
 } DOWNLOAD_STEP;
 
-@interface GPSAssistDataHandler : NSObject {
-	NSMutableSet *delegates;
-	NSData *gpsAssistData;
-	NSDate *downloadDate;
+@interface GPSAssistDataHandler : NSObject
+{
+	NSMutableSet    *delegates;
+	NSData          *gpsAssistData;
+	NSDate          *downloadDate;
 	NSURLConnection *urlConnection;
-	DOWNLOAD_STEP downloadStep;
-	NSMutableData *receivedData;
+	DOWNLOAD_STEP   downloadStep;
+	NSMutableData   *receivedData;
 }
 
--(void)stop;
--(void)getGpsAssistData:(id<GPSAssistDataHandlerDelegate>)delegate;
--(void)cancelGetGpsAssistData:(id<GPSAssistDataHandlerDelegate>)delegate;
+- (void)stop;
+- (void)getGpsAssistData:(id<GPSAssistDataHandlerDelegate>)delegate;
+- (void)cancelGetGpsAssistData:(id<GPSAssistDataHandlerDelegate>)delegate;
 
 @end
