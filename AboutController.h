@@ -7,8 +7,9 @@
 
 @interface AboutController : NSWindowController
 {
-    IBOutlet NSButton  *licence;
-    IBOutlet NSPopover *licencePopover;
+    IBOutlet NSButton    *licence;
+    IBOutlet NSPopover   *licencePopover;
+    IBOutlet NSTextField *version;
 }
 
 - (IBAction)showLicence:(id)sender;
