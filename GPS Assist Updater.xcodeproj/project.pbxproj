@@ -20,7 +20,6 @@
 		09571CE513DC9DE90039286E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09571CE413DC9DE90039286E /* Cocoa.framework */; };
 		09571CEF13DC9DE90039286E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09571CED13DC9DE90039286E /* InfoPlist.strings */; };
 		09571CF113DC9DE90039286E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09571CF013DC9DE90039286E /* main.m */; };
-		09571CF513DC9DE90039286E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09571CF313DC9DE90039286E /* Credits.rtf */; };
 		0964069413DCC91B003762C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0964069613DCC91B003762C0 /* MainMenu.xib */; };
 		0987203713E6C8B7001AEC08 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0987203613E6C8B7001AEC08 /* Sparkle.framework */; };
 		09D0E88713E8911A002F8276 /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D0E88613E8911A002F8276 /* AboutWindow.xib */; };
@@ -71,7 +70,6 @@
 		09571CEE13DC9DE90039286E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09571CF013DC9DE90039286E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09571CF213DC9DE90039286E /* GPS Assist Updater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPS Assist Updater-Prefix.pch"; sourceTree = "<group>"; };
-		09571CF413DC9DE90039286E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		0964069513DCC91B003762C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0987203613E6C8B7001AEC08 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "Sparkle-1.5b6-Framework/Sparkle.framework"; sourceTree = "<group>"; };
 		09D0E88613E8911A002F8276 /* AboutWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutWindow.xib; sourceTree = "<group>"; };
@@ -186,7 +184,6 @@
 				09571CED13DC9DE90039286E /* InfoPlist.strings */,
 				09571CF013DC9DE90039286E /* main.m */,
 				09571CF213DC9DE90039286E /* GPS Assist Updater-Prefix.pch */,
-				09571CF313DC9DE90039286E /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			path = "GPS Assist Updater";
@@ -260,7 +257,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				09571CEF13DC9DE90039286E /* InfoPlist.strings in Resources */,
-				09571CF513DC9DE90039286E /* Credits.rtf in Resources */,
 				093C652E13DCA1730023FAE7 /* gps_small.png in Resources */,
 				093C652F13DCA1730023FAE7 /* gps.gif in Resources */,
 				093C653013DCA1730023FAE7 /* icon.icns in Resources */,
@@ -300,14 +296,6 @@
 				09571CEE13DC9DE90039286E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		09571CF313DC9DE90039286E /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09571CF413DC9DE90039286E /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		0964069613DCC91B003762C0 /* MainMenu.xib */ = {
