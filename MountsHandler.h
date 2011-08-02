@@ -8,14 +8,15 @@
 #import <Cocoa/Cocoa.h>
 #import "GPSAssistDataHandler.h"
 
-@interface MountsHandler : NSObject {
-	NSMutableDictionary *mounts;
+@interface MountsHandler : NSObject
+{
+	NSMutableDictionary  *mounts;
 	GPSAssistDataHandler *dataHandler;
-	BOOL gpsAssistAutoUpdate;
+	BOOL                 gpsAssistAutoUpdate;
 }
 
 @property(nonatomic) BOOL gpsAssistAutoUpdate;
 
--(id)initWithDataHandler:(GPSAssistDataHandler*)theDataHandler;
+- (id)initWithDataHandler:(GPSAssistDataHandler*)theDataHandler;
 
 @end
