@@ -1,6 +1,6 @@
 //
 //  MountsHandler.h
-//  DSC-HX5V GPSAssist Update
+//  GPS Assist Updater
 //
 //	Keep a list of mounts
 //

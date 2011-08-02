@@ -1,6 +1,6 @@
 //
 //  Mount.m
-//  DSC-HX5V GPSAssist Update
+//  GPS Assist Updater
 //
 
 #import "Mount.h"

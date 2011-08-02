@@ -1,6 +1,6 @@
 //
 //  GPSAssistDataHandler.h
-//  DSC-HX5V GPSAssist Update
+//  GPS Assist Updater
 //
 //	Handles the gpsassist-data. Get new data from server if needed.
 //

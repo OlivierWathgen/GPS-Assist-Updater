@@ -1,6 +1,6 @@
 //
 //  GPSAssistDataHandlerDelegate.h
-//  DSC-HX5V GPSAssist Update
+//  GPS Assist Updater
 //
 
 @protocol GPSAssistDataHandlerDelegate

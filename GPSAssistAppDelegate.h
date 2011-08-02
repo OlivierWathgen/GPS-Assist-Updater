@@ -1,6 +1,6 @@
 //
 //  GPSAssistAppDelegate.h
-//  DSC-HX5V GPSAssist Update
+//  GPS Assist Updater
 //
 
 #import <Cocoa/Cocoa.h>
