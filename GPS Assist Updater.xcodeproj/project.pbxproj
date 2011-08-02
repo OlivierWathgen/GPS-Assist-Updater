@@ -11,7 +11,6 @@
 		0911B1E313DCB43200B1E511 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0911B1DB13DCB38300B1E511 /* Growl.framework */; };
 		093C652113DCA0F30023FAE7 /* GPSAssistAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C651B13DCA0F30023FAE7 /* GPSAssistAppDelegate.m */; };
 		093C652213DCA0F30023FAE7 /* GPSAssistDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C651D13DCA0F30023FAE7 /* GPSAssistDataHandler.m */; };
-		093C652313DCA0F30023FAE7 /* GPSAssistMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C652013DCA0F30023FAE7 /* GPSAssistMenu.m */; };
 		093C652813DCA1050023FAE7 /* Mount.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C652513DCA1050023FAE7 /* Mount.m */; };
 		093C652913DCA1050023FAE7 /* MountsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 093C652713DCA1050023FAE7 /* MountsHandler.m */; };
 		093C652E13DCA1730023FAE7 /* gps_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C652B13DCA1730023FAE7 /* gps_small.png */; };
@@ -53,8 +52,6 @@
 		093C651C13DCA0F30023FAE7 /* GPSAssistDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSAssistDataHandler.h; sourceTree = "<group>"; };
 		093C651D13DCA0F30023FAE7 /* GPSAssistDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSAssistDataHandler.m; sourceTree = "<group>"; };
 		093C651E13DCA0F30023FAE7 /* GPSAssistDataHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSAssistDataHandlerDelegate.h; sourceTree = "<group>"; };
-		093C651F13DCA0F30023FAE7 /* GPSAssistMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSAssistMenu.h; sourceTree = "<group>"; };
-		093C652013DCA0F30023FAE7 /* GPSAssistMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSAssistMenu.m; sourceTree = "<group>"; };
 		093C652413DCA1050023FAE7 /* Mount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mount.h; sourceTree = "<group>"; };
 		093C652513DCA1050023FAE7 /* Mount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mount.m; sourceTree = "<group>"; };
 		093C652613DCA1050023FAE7 /* MountsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountsHandler.h; sourceTree = "<group>"; };
@@ -107,8 +104,6 @@
 		093C651813DCA0D90023FAE7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				093C651F13DCA0F30023FAE7 /* GPSAssistMenu.h */,
-				093C652013DCA0F30023FAE7 /* GPSAssistMenu.m */,
 				093C651A13DCA0F30023FAE7 /* GPSAssistAppDelegate.h */,
 				093C651B13DCA0F30023FAE7 /* GPSAssistAppDelegate.m */,
 				093C652613DCA1050023FAE7 /* MountsHandler.h */,
@@ -281,7 +276,6 @@
 				09571CF113DC9DE90039286E /* main.m in Sources */,
 				093C652113DCA0F30023FAE7 /* GPSAssistAppDelegate.m in Sources */,
 				093C652213DCA0F30023FAE7 /* GPSAssistDataHandler.m in Sources */,
-				093C652313DCA0F30023FAE7 /* GPSAssistMenu.m in Sources */,
 				093C652813DCA1050023FAE7 /* Mount.m in Sources */,
 				093C652913DCA1050023FAE7 /* MountsHandler.m in Sources */,
 			);

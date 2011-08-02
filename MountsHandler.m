@@ -3,8 +3,10 @@
 //  DSC-HX5V GPSAssist Update
 //
 
+#import <Cocoa/Cocoa.h>
 #import "MountsHandler.h"
 #import "Mount.h"
+#import "GPSAssistAppDelegate.h"
 
 @interface MountsHandler(Private)
 -(void)initMounts;
@@ -16,9 +18,10 @@
 @implementation MountsHandler
 @synthesize gpsAssistAutoUpdate;
 
--(id)initWithMenu:(GPSAssistMenu*)theMenu dataHandler:(GPSAssistDataHandler*)theDataHandler{
+-(id)initWithDataHandler:(GPSAssistDataHandler*)theDataHandler
+{
 	if(self=[super init]){
-		menu=[theMenu retain];
+		GPSAssistAppDelegate *menu = (GPSAssistAppDelegate*) [[NSApplication sharedApplication] delegate];
 		gpsAssistAutoUpdate=menu.autoUpdate;
 		dataHandler=[theDataHandler retain];
 		[[[NSWorkspace sharedWorkspace]notificationCenter]addObserver:self selector:@selector(mount:) name:NSWorkspaceDidMountNotification object:nil];
@@ -35,7 +38,6 @@
 		[mount stop];
 	}
 	[mounts release];
-	[menu release];
 	[super dealloc];
 }
 
@@ -113,6 +115,7 @@
 			[items addObject:mount.menuItem];
 		}
 	}
+    GPSAssistAppDelegate *menu = (GPSAssistAppDelegate*) [[NSApplication sharedApplication] delegate];
 	[menu updateMounts:items];
 }
 
