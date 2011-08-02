@@ -7,6 +7,7 @@
 #import <Growl/Growl.h>
 #import "MountsHandler.h"
 #import "GPSAssistDataHandler.h"
+#import "AboutController.h"
 
 @interface GPSAssistAppDelegate : NSObject <GrowlApplicationBridgeDelegate>
 {
@@ -21,6 +22,8 @@
     
 	MountsHandler *mountsHandler;
 	GPSAssistDataHandler *gpsAssistDataHandler;
+    
+    AboutController     *aboutController;
 	
 	IBOutlet NSButtonCell *dontShowTickBox;
 }

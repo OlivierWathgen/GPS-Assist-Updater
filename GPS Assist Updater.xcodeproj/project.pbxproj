@@ -23,6 +23,8 @@
 		09571CF513DC9DE90039286E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09571CF313DC9DE90039286E /* Credits.rtf */; };
 		0964069413DCC91B003762C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0964069613DCC91B003762C0 /* MainMenu.xib */; };
 		0987203713E6C8B7001AEC08 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0987203613E6C8B7001AEC08 /* Sparkle.framework */; };
+		09D0E88713E8911A002F8276 /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D0E88613E8911A002F8276 /* AboutWindow.xib */; };
+		09D0E88B13E89146002F8276 /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D0E88A13E89146002F8276 /* AboutController.m */; };
 		09FFA50113E6F10500E861CE /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0987203613E6C8B7001AEC08 /* Sparkle.framework */; };
 		09FFA50413E80E9F00E861CE /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 09FFA50313E80E9F00E861CE /* dsa_pub.pem */; };
 		09FFA50A13E8196F00E861CE /* dmg_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FFA50613E8196F00E861CE /* dmg_background.png */; };
@@ -72,6 +74,9 @@
 		09571CF413DC9DE90039286E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		0964069513DCC91B003762C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0987203613E6C8B7001AEC08 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "Sparkle-1.5b6-Framework/Sparkle.framework"; sourceTree = "<group>"; };
+		09D0E88613E8911A002F8276 /* AboutWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutWindow.xib; sourceTree = "<group>"; };
+		09D0E88913E89146002F8276 /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
+		09D0E88A13E89146002F8276 /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
 		09FFA50313E80E9F00E861CE /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		09FFA50613E8196F00E861CE /* dmg_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dmg_background.png; sourceTree = "<group>"; };
 		09FFA50713E8196F00E861CE /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
@@ -97,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				0964069613DCC91B003762C0 /* MainMenu.xib */,
+				09D0E88613E8911A002F8276 /* AboutWindow.xib */,
 			);
 			name = "User Interface";
 			sourceTree = "<group>";
@@ -113,6 +119,8 @@
 				093C651C13DCA0F30023FAE7 /* GPSAssistDataHandler.h */,
 				093C651D13DCA0F30023FAE7 /* GPSAssistDataHandler.m */,
 				093C651E13DCA0F30023FAE7 /* GPSAssistDataHandlerDelegate.h */,
+				09D0E88913E89146002F8276 /* AboutController.h */,
+				09D0E88A13E89146002F8276 /* AboutController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -263,6 +271,7 @@
 				09FFA50B13E8196F00E861CE /* Rakefile in Resources */,
 				09FFA50C13E8196F00E861CE /* release_notes_template.html.erb in Resources */,
 				09FFA50D13E8196F00E861CE /* release_notes.txt in Resources */,
+				09D0E88713E8911A002F8276 /* AboutWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +287,7 @@
 				093C652213DCA0F30023FAE7 /* GPSAssistDataHandler.m in Sources */,
 				093C652813DCA1050023FAE7 /* Mount.m in Sources */,
 				093C652913DCA1050023FAE7 /* MountsHandler.m in Sources */,
+				09D0E88B13E89146002F8276 /* AboutController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
