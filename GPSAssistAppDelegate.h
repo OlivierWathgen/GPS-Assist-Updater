@@ -11,7 +11,7 @@
 
 @interface GPSAssistAppDelegate : NSObject <GrowlApplicationBridgeDelegate>
 {
-    IBOutlet NSWindow   *window;
+    IBOutlet NSWindow   *welcomeWindow;
     IBOutlet NSMenu     *statusMenu;
     IBOutlet NSMenuItem *autoUpdateItem;
     IBOutlet NSMenuItem *hiddenSeperator;

@@ -29,7 +29,7 @@ static NSString *disableAutoUpdate = @"disableAutoUpdate";
 	// Check if we need to show the welcome-window first
 	if (![[NSUserDefaults standardUserDefaults]boolForKey:hideWelcome])
     {
-		[window makeKeyAndOrderFront:self];
+		[welcomeWindow makeKeyAndOrderFront:self];
 	}
     else {
 		[self startApplication];
@@ -138,7 +138,7 @@ static NSString *disableAutoUpdate = @"disableAutoUpdate";
 	BOOL dontShow=[dontShowTickBox intValue]==1;
 	[[NSUserDefaults standardUserDefaults]setBool:dontShow forKey:hideWelcome];
 	[[NSUserDefaults standardUserDefaults]synchronize];
-	[window close];
+	[welcomeWindow close];
 	[self startApplication];
 }
 

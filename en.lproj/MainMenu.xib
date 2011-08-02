@@ -163,7 +163,6 @@
 							<string key="NSFrame">{{429, 15}, {111, 23}}</string>
 							<reference key="NSSuperview" ref="468199087"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="684119740">
 								<int key="NSCellFlags">-2080244224</int>
@@ -362,6 +361,14 @@
 					</object>
 					<int key="connectionID">510</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">welcomeWindow</string>
+						<reference key="source" ref="1833912"/>
+						<reference key="destination" ref="321406032"/>
+					</object>
+					<int key="connectionID">520</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -552,7 +559,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">519</int>
+			<int key="maxID">520</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -575,7 +582,7 @@
 						<string key="dontShowTickBox">NSButtonCell</string>
 						<string key="hiddenSeperator">NSMenuItem</string>
 						<string key="statusMenu">NSMenu</string>
-						<string key="window">NSWindow</string>
+						<string key="welcomeWindow">NSWindow</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="autoUpdateItem">
@@ -594,8 +601,8 @@
 							<string key="name">statusMenu</string>
 							<string key="candidateClassName">NSMenu</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="window">
-							<string key="name">window</string>
+						<object class="IBToOneOutletInfo" key="welcomeWindow">
+							<string key="name">welcomeWindow</string>
 							<string key="candidateClassName">NSWindow</string>
 						</object>
 					</dictionary>
