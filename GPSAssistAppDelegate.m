@@ -44,7 +44,7 @@ static NSString *disableAutoUpdate = @"disableAutoUpdate";
 	return NSTerminateNow;
 }
 
--(void)startApplication
+- (void)startApplication
 {
     NSImage *statusMenuImage = [NSImage imageNamed:@"gps_small.png"];
 	statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:[statusMenuImage size].width] retain];
@@ -70,7 +70,7 @@ static NSString *disableAutoUpdate = @"disableAutoUpdate";
 	mountsHandler = [[MountsHandler alloc] initWithDataHandler:gpsAssistDataHandler];
 }
 
--(IBAction)autoUpdateMenu:(id)sender
+- (IBAction)autoUpdateMenu:(id)sender
 {
 	if (autoUpdate)
     {
@@ -86,13 +86,13 @@ static NSString *disableAutoUpdate = @"disableAutoUpdate";
     mountsHandler.gpsAssistAutoUpdate = !mountsHandler.gpsAssistAutoUpdate;
 }
 
--(IBAction)checkUpdates:(id)sender
+- (IBAction)checkUpdates:(id)sender
 {
     SUUpdater *updater = [SUUpdater sharedUpdater];
     [updater checkForUpdates:self];
 }
 
--(IBAction)about:(id)sender
+- (IBAction)about:(id)sender
 {
     if (!aboutController)
     {
@@ -101,7 +101,7 @@ static NSString *disableAutoUpdate = @"disableAutoUpdate";
     [aboutController showWindow:self];
 }
 
--(IBAction)exitMenu:(id)sender
+- (IBAction)exitMenu:(id)sender
 {
 	[[NSApplication sharedApplication] terminate:self];
 }
@@ -132,7 +132,7 @@ static NSString *disableAutoUpdate = @"disableAutoUpdate";
 	}
 }
 
--(IBAction)continuePressed:(id)sender
+- (IBAction)continuePressed:(id)sender
 {
 	//Store the dontShow-value in the userDefalts
 	BOOL dontShow=[dontShowTickBox intValue]==1;
