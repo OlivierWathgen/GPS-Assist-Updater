@@ -23,7 +23,6 @@
     NSString *currentVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
     NSString *complete = [NSString stringWithFormat:@"%@%@", [version stringValue], currentVersion];
     [version setStringValue:complete];
-    NSLog(@"%@",[version stringValue]);
     [super windowDidLoad];
 }
 
