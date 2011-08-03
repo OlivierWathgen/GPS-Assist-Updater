@@ -62,8 +62,12 @@
 		free  = (NSNumber*) [info objectForKey:NSFileSystemFreeSize];	// +868560896 = 868.5MB
 		total = (NSNumber*) [info objectForKey:NSFileSystemSize];		// +1028075520= 1.03GB
 	}
+
+    #ifdef DEBUG
 	NSLog(@"mount: %@ removable:%d writable:%d unmountable:%d description:%@ fstype:%@", mountPath, isRemovable, isWritable, isUnmountable, description, fsType);
 	NSLog(@"free=%fMB total=%fMB",[free doubleValue]/(1024*1024), [total doubleValue]/(1024*1024));
+    #endif
+
 	if (isRemovable && isWritable && isUnmountable)
     {
 		if ([mounts objectForKey:mountPath] == nil)
@@ -98,8 +102,12 @@
 {
 	NSDictionary *userInfo = [notification userInfo];
 	NSString *mountPath = [userInfo objectForKey:@"NSDevicePath"];
+
+    #ifdef DEBUG
 	NSLog(@"unmount: %@",mountPath);
-	Mount *mount = [mounts objectForKey:mountPath];
+    #endif
+
+    Mount *mount = [mounts objectForKey:mountPath];
 	if (mount)
     {
 		[mount stop];
