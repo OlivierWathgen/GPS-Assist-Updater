@@ -78,10 +78,12 @@
 			// The mounts are changed, update the menu
 			[self updateMenu];
 		}
+        #ifdef DEBUG
         else
         {
 			NSLog(@"Error: multiple mounts with same path: %@", mountPath);
 		}
+        #endif
 	}
 }
 
@@ -94,10 +96,12 @@
     {
 		[self createMountFromPath:mountPath];
 	}
+    #ifdef DEBUG
     else
     {
 		NSLog(@"Error: mounted unknown path");
 	}
+    #endif
 }
 
 - (void)unmount:(NSNotification*)notification
@@ -116,10 +120,12 @@
 		[mounts removeObjectForKey:mountPath];
 		[self updateMenu];
 	}
+    #ifdef DEBUG
     else
     {
 		NSLog(@"Unmounted unknown mount: %@", mountPath);
 	}
+    #endif
 }
 
 - (void)updateMenu
