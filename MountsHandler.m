@@ -27,8 +27,8 @@
 		GPSAssistAppDelegate *menu = (GPSAssistAppDelegate*) [[NSApplication sharedApplication] delegate];
 		gpsAssistAutoUpdate = menu.autoUpdate;
 		dataHandler = theDataHandler;
-		[[[NSWorkspace sharedWorkspace]notificationCenter]addObserver:self selector:@selector(mount:) name:NSWorkspaceDidMountNotification object:nil];
-		[[[NSWorkspace sharedWorkspace]notificationCenter]addObserver:self selector:@selector(unmount:) name:NSWorkspaceWillUnmountNotification object:nil];
+		[[[NSWorkspace sharedWorkspace] notificationCenter] addObserver:self selector:@selector(mount:)   name:NSWorkspaceDidMountNotification    object:nil];
+		[[[NSWorkspace sharedWorkspace] notificationCenter] addObserver:self selector:@selector(unmount:) name:NSWorkspaceWillUnmountNotification object:nil];
 		[self initMounts];
 	}
 	return self;
@@ -65,7 +65,7 @@
 
     #ifdef DEBUG
 	NSLog(@"mount: %@ removable:%d writable:%d unmountable:%d description:%@ fstype:%@", mountPath, isRemovable, isWritable, isUnmountable, description, fsType);
-	NSLog(@"free=%fMB total=%fMB",[free doubleValue]/(1024*1024), [total doubleValue]/(1024*1024));
+	NSLog(@"free=%fMB total=%fMB", [free doubleValue]/(1024*1024), [total doubleValue]/(1024*1024));
     #endif
 
 	if (isRemovable && isWritable && isUnmountable)
@@ -87,24 +87,26 @@
 
 - (void)mount:(NSNotification*)notification
 {
-	NSDictionary *userInfo = [notification userInfo];
-	NSString *mountPath = [userInfo objectForKey:@"NSDevicePath"];
+	NSDictionary *userInfo  = [notification userInfo];
+	NSString     *mountPath = [userInfo objectForKey:@"NSDevicePath"];
+
 	if (mountPath)
     {
 		[self createMountFromPath:mountPath];
 	}
-    else{
+    else
+    {
 		NSLog(@"Error: mounted unknown path");
 	}
 }
 
 - (void)unmount:(NSNotification*)notification
 {
-	NSDictionary *userInfo = [notification userInfo];
-	NSString *mountPath = [userInfo objectForKey:@"NSDevicePath"];
+	NSDictionary *userInfo  = [notification userInfo];
+	NSString     *mountPath = [userInfo objectForKey:@"NSDevicePath"];
 
     #ifdef DEBUG
-	NSLog(@"unmount: %@",mountPath);
+	NSLog(@"unmount: %@", mountPath);
     #endif
 
     Mount *mount = [mounts objectForKey:mountPath];
@@ -145,7 +147,7 @@
         
 		// Update all mounts
 		for (id key in mounts) {
-			Mount *mount=[mounts objectForKey:key];
+			Mount *mount = [mounts objectForKey:key];
 			mount.gpsAssistAutoUpdate = gpsAssistAutoUpdate;
 		}
 	}
