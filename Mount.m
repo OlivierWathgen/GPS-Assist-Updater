@@ -49,8 +49,8 @@ static const BOOL showAllDisks = NO;	// If NO it only shows disks with the Priva
 		totalSize           = [total retain];
 		dataHandler         = [theDataHandler retain];
 		gpsAssistAutoUpdate = autoUpdate;
-		configFile          = [[NSString stringWithFormat:@"%@/%@",path,configFileName]retain];
-		NSLog(@"Mount created for path:%@ totalSize=%f",path,[totalSize doubleValue]);
+		configFile          = [[NSString stringWithFormat:@"%@/%@", path, configFileName] retain];
+		NSLog(@"Mount created for path:%@ totalSize=%f", path, [totalSize doubleValue]);
 		hidden              = NO;
 		[self initGpsAssist];
 	}
