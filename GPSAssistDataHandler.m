@@ -11,10 +11,10 @@ static const double GpsAssistDataValidTime=86400;	//24hours
 #define GPSASSISTDATAMD5URL @"http://control.d-imaging.sony.co.jp/GPS/assistme.md5"
 
 @interface GPSAssistDataHandler(Private)
--(void)showErrorWithText:(NSString*)error;
--(void)downloadGpsAssistData;
--(void)downloadFailed;
--(NSString*)md5:(NSData*)data;
+- (void)showErrorWithText:(NSString*)error;
+- (void)downloadGpsAssistData;
+- (void)downloadFailed;
+- (NSString*)md5:(NSData*)data;
 @end
 
 

@@ -10,7 +10,7 @@ static NSString *hideWelcome=@"hideWelcome";
 static NSString *disableAutoUpdate = @"disableAutoUpdate";
 
 @interface GPSAssistAppDelegate(Private)
--(void)startApplication;
+- (void)startApplication;
 @end
 
 
