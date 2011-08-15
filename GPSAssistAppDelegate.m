@@ -134,10 +134,10 @@ static NSString *disableAutoUpdate = @"disableAutoUpdate";
 
 - (IBAction)continuePressed:(id)sender
 {
-	//Store the dontShow-value in the userDefalts
-	BOOL dontShow=[dontShowTickBox intValue]==1;
-	[[NSUserDefaults standardUserDefaults]setBool:dontShow forKey:hideWelcome];
-	[[NSUserDefaults standardUserDefaults]synchronize];
+	// Store the dontShow-value in the userDefalts
+	BOOL dontShow = [dontShowTickBox intValue] == 1;
+	[[NSUserDefaults standardUserDefaults] setBool:dontShow forKey:hideWelcome];
+	[[NSUserDefaults standardUserDefaults] synchronize];
 	[welcomeWindow close];
 	[self startApplication];
 }
