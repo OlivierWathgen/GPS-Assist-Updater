@@ -164,7 +164,7 @@
 						<object class="NSTextField" id="322608572">
 							<reference key="NSNextResponder" ref="795646224"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{51, 64}, {189, 17}}</string>
+							<string key="NSFrame">{{47, 64}, {197, 17}}</string>
 							<reference key="NSSuperview" ref="795646224"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="25460252"/>
@@ -173,7 +173,7 @@
 							<object class="NSTextFieldCell" key="NSCell" id="925636037">
 								<int key="NSCellFlags">68288064</int>
 								<int key="NSCellFlags2">138413056</int>
-								<string key="NSContents">Copyright © Olivier Wathgen</string>
+								<string key="NSContents">Developed by Olivier Wathgen</string>
 								<reference key="NSSupport" ref="711425057"/>
 								<string key="NSCellIdentifier">_NS:3936</string>
 								<reference key="NSControlView" ref="322608572"/>
@@ -187,7 +187,6 @@
 							<string key="NSFrame">{{102, 19}, {87, 32}}</string>
 							<reference key="NSSuperview" ref="795646224"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:161</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="287217363">
@@ -226,7 +225,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{11, -73}, {621, 408}}</string>
 						<reference key="NSSuperview" ref="946365087"/>
-						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:3596</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="1066856606">
@@ -269,7 +267,6 @@ IFRIRSBQT1NTSUJJTElUWSBPRiBTVUNIIERBTUFHRS4</bytes>
 				</object>
 				<string key="NSFrameSize">{642, 341}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="565756626"/>
 				<string key="NSReuseIdentifierKey">_NS:499</string>
 				<string key="NSClassName">NSView</string>
