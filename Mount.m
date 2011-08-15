@@ -59,18 +59,6 @@ static const BOOL showAllDisks = NO;	// If NO it only shows disks with the Priva
 	return self;
 }
 
-- (void)dealloc
-{
-	[NSObject cancelPreviousPerformRequestsWithTarget:self];
-	[path release];
-	[totalSize release];
-	[dataHandler release];
-	[configFile release];
-	[configuration release];
-	[menuItem release];
-	[super dealloc];
-}
-
 - (void)showErrorWithText:(NSString*)error
 {
 	NSAlert *alert = [[NSAlert alloc] init];
