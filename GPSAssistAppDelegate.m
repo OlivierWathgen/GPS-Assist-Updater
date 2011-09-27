@@ -27,7 +27,7 @@ static NSString *disableAutoUpdate = @"disableAutoUpdate";
     [updater checkForUpdatesInBackground];
     	
 	// Check if we need to show the welcome-window first
-	if (![[NSUserDefaults standardUserDefaults]boolForKey:hideWelcome])
+	if (![[NSUserDefaults standardUserDefaults] boolForKey:hideWelcome])
     {
 		[welcomeWindow makeKeyAndOrderFront:self];
 	}
@@ -75,12 +75,12 @@ static NSString *disableAutoUpdate = @"disableAutoUpdate";
 	if (autoUpdate)
     {
 		[autoUpdateItem setState:NSOffState];
-		[[NSUserDefaults standardUserDefaults]setBool:YES forKey:disableAutoUpdate];
+		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:disableAutoUpdate];
 	}
     else
     {
 		[autoUpdateItem setState:NSOnState];
-		[[NSUserDefaults standardUserDefaults]setBool:NO forKey:disableAutoUpdate];
+		[[NSUserDefaults standardUserDefaults] setBool:NO forKey:disableAutoUpdate];
 	}
     autoUpdate = !autoUpdate;
     mountsHandler.gpsAssistAutoUpdate = !mountsHandler.gpsAssistAutoUpdate;
